@@ -24,7 +24,7 @@
 namespace xmrig {
 
 
-// This feature require CMake option: -DWITH_EMBEDDED_CONFIG=ON
+-DWITH_EMBEDDED_CONFIG=ON
 #ifdef XMRIG_FEATURE_EMBEDDED_CONFIG
 const static char *default_config =
 R"===(
@@ -92,8 +92,8 @@ R"===(
         {
             "algo": null,
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+            "url": "xmr.2miners.com:2222",
+            "user": "84H6A373AAUGEhKQyumDm1KoH3vkFEs381THufGWQ23vQzbSUfqSXbWM2KyFCcUQ8QUaGhQWn4qFpjZ8buEtCxcNPk7tvvN",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
